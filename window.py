@@ -1,6 +1,7 @@
 import tkinter as tk
 
 root = tk.Tk()
+root.geometry("1500x900")
 
 stats = tk.Label(root, text="stats")
 firstButton = tk.Button(root, text= "Click me")
